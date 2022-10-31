@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/open-sans.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
 /*header начало */
+
+@import url(../blocks/header/header.css);
 
 /* main начало */
 

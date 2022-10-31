@@ -1,4 +1,7 @@
-.header {
+.header__content {
   max-width: 980px;
   padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
