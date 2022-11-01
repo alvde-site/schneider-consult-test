@@ -1,0 +1,57 @@
+.footer {
+  box-sizing: border-box;
+  min-height: 220px;
+  padding: 50px 0;
+  background-color: #777;
+}
+
+.footer__content {
+  display: flex;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer__copyright {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: rgb(255, 255, 255);
+  margin: 0 137px 0 0;
+  max-width: 220px;
+}
+
+.footer__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  color: rgb(255, 255, 255);
+  max-width: 220px;
+  transition: all 0.5s;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer__author {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: rgb(255, 255, 255);
+  margin: 0 0 0 auto;
+  max-width: 220px;
+}
