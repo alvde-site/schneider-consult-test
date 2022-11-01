@@ -1,55 +1,141 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>schneider-consult-test</title>
+    <meta
+      name="description"
+      content="Тестовое задание. Фронтенд. Демиденко Александр Викторович. 02.11.2022"
+    />
+    <meta name="keywords" content="Тестовое" />
+    <meta name="author" content="Демиденко Александр" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>schneider-consult-test</title>
-  <meta name="description" content="Тестовое задание. Фронтенд. Демиденко Александр Викторович. 02.11.2022">
-  <meta name="keywords" content="Тестовое">
-  <meta name="author" content="Демиденко Александр">
-</head>
+  <body class="root">
+    <div class="page">
+      <!-- Начало блока header -->
 
-<body class="root">
-  <div class="page">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__logo"></div>
+          <p class="header__promo">Распродажа до 15.02.16!</p>
+          <ul class="header__contacts">
+            <li class="header__contacts-item">
+              <a href="tel:+" class="header__tel">+7 (343) 252-52-52</a>
+            </li>
+            <li class="header__contacts-item">
+              <a href="tel:+" class="header__tel">+7 (343) 252-52-52</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="menu">
+          <ul class="menu__links">
+            <li><a class="menu__link" href="!#">Главная</a></li>
+            <li><a class="menu__link" href="!#">Каталог</a></li>
+            <li><a class="menu__link" href="!#">Доставка и оплата</a></li>
+            <li><a class="menu__link" href="!#">Прайс-лист</a></li>
+            <li>
+              <a class="menu__link menu__link_last" href="!#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="slider">
+          <img
+            src="<%=require('./images/slider.png')%>"
+            alt="Горы"
+            class="slider__image"
+          />
+        </section>
+      </header>
+      <!-- Начало блока content -->
 
-    <!-- Начало блока header -->
+      <main class="main">
+        <aside class="news">
+          <h3>Новости</h3>
+          <ul class="news__block">
+            <li class="news__item">
+              <h4 class="news__title">14 сентября 2015 г.</h4>
+              <p class="news__text">Акция на входные двери Фалько!</p>
+            </li>
+            <li class="news__item">
+              <h4 class="news__title">14 сентября 2015 г.</h4>
+              <p class="news__text">
+                Установка межкомнатных дверй в подарок при покупке 3-х полотен!
+              </p>
+            </li>
+            <li class="news__item">
+              <h4 class="news__title">14 сентября 2015 г.</h4>
+              <p class="news__text">Новинка! Термо двери Форт!</p>
+            </li>
+            <li class="news__item">
+              <h4 class="news__title">14 сентября 2015 г.</h4>
+              <p class="news__text">
+                Установка межкомнатных дверй в подарок при покупке 3-х полотен!
+              </p>
+            </li>
+            <li class="news__item">
+              <h4 class="news__title">14 сентября 2015 г.</h4>
+              <p class="news__text">Новинка! Термо двери Форт!</p>
+            </li>
+            <a href="!#" class="news__archive">Архив акций</a>
+          </ul>
+        </aside>
+        <section class="content">
+          <h1 class="content__title">Компания «Шнайдер Консалт»</h1>
+          <p class="content__text">
+            Компания «Шнайдер Консалт» Мы эксперты в запуске интернет-магазинов
+            товаров для дома, строительства и ремонта. Совместный опыт нашей
+            команды в развитии и продвижении проектов в сфере электронной
+            торговли более 15 лет. Мы создали надежную технологию, которая
+            позволяет быстро и уверено выводить интернет-магазины на продажи и
+            самоокупаемость. Если мы беремся за проект, значит уверены в
+            достижении бизнес результатов для наших клиентов.
+          </p>
+          <p class="content__text">
+            Компания «Шнайдер Консалт» Мы эксперты в запуске интернет-магазинов
+            товаров для дома, строительства и ремонта. Совместный опыт нашей
+            команды в развитии и продвижении проектов в сфере электронной
+            торговли более 15 лет. Мы создали надежную технологию, которая
+            позволяет быстро и уверено выводить интернет-магазины на продажи и
+            самоокупаемость. Если мы беремся за проект, значит уверены в
+            достижении бизнес результатов для наших клиентов.
+          </p>
+          <section class="activities">
+            <h2 class="activities__title">Чем мы занимаемся?</h2>
+            <ul class="activities__items">
+              <li class="activities__item">
+                <h3 class="activities__item-title">
+                  Только товары для дома, строительства и ремонта.
+                </h3>
+                <p class="activities__text">
+                  Нельзя одинаково хорошо разбираться во всех отраслях рынка.
+                  Поэтому мы работаем на тех секторах рынка, на котором имеем
+                  большой опыт и разбираемся лучше всего. И это гарантирует
+                  результат нашим клиентам.
+                </p>
+              </li>
+              <li class="activities__item">
+                <h3 class="activities__item-title">
+                  Строим комплексный маркетинг и продажи.
+                </h3>
+                <p class="activities__text">
+                  Строим комплексный маркетинг и продажи. Мы не делаем просто
+                  сайты. Не занимаемся просто продвижением. Это не принесет
+                  результаты. Только комплексный маркетинг и и система продаж
+                  могут принести вам доходы и прибыль.
+                </p>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </main>
 
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo"></div>
-        <p class="header__promo">Распродажа до 15.02.16!</p>
-        <ul class="header__contacts">
-          <li class="header__contacts-item"><a href="tel:+" class="header__tel"
-            >+7 (343) 252-52-52</a
-          ></li>
-          <li class="header__contacts-item"><a href="tel:+" class="header__tel"
-            >+7 (343) 252-52-52</a
-          ></li>
-        </ul>
-      </div>
-      <nav class="menu">
-        <ul class="menu__links">
-          <li><a class="menu__link" href="!#">Главная</a></li>
-          <li><a class="menu__link" href="!#">Каталог</a></li>
-          <li><a class="menu__link" href="!#">Доставка и оплата</a></li>
-          <li><a class="menu__link" href="!#">Прайс-лист</a></li>
-          <li><a class="menu__link menu__link_last" href="!#">Контакты</a></li>
-        </ul>
-      </nav>
-      <section class="slider">
-        <img src="<%=require('./images/slider.jpg')%>" alt="Горы" class="slider__image">
-      </section>
-    </header>
-    <!-- Начало блока content -->
+      <!-- Начало блока footer -->
 
-    <main class="content">
-    </main>
-
-    <!-- Начало блока footer -->
-
-    <footer class="footer">
-      <p class="footer__copyright"></p>
-    </footer>
-</body>
+      <footer class="footer">
+        <p class="footer__copyright"></p>
+      </footer>
+    </div>
+  </body>
 </html>
