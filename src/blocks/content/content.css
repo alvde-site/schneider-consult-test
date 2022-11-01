@@ -1,0 +1,26 @@
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: calc(566px + 38px);
+  padding: 22px 0 22px 59px;
+}
+
+.content__title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 0.67;
+  color: rgb(118, 118, 118);
+  margin: 0;
+}
+
+.content__text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: rgb(118, 118, 118);
+  margin: 38px 0 0;
+}

@@ -1,0 +1,45 @@
+.activities {
+  padding: 38px 0 0;
+}
+
+.activities__title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.91;
+  color: rgb(118, 118, 118);
+  margin: 0 0 43px;
+}
+
+.activities__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activities__item {
+  max-width: 258px;
+}
+
+.activities__item-title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.57;
+  color: rgb(118, 118, 118);
+  margin: 0 0 38px;
+}
+
+.activities__text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: rgb(118, 118, 118);
+  margin: 0;
+}
