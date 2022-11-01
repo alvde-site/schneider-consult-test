@@ -7,6 +7,9 @@
 
 @import url(../blocks/header/header.css);
 
-/* main начало */
+/* menu начало */
+
+@import url(../blocks/menu/menu.css);
+
 
 /*footer начало */

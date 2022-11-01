@@ -1,0 +1,33 @@
+.menu {
+  background-color: #777;
+}
+
+.menu__links {
+  padding: 20px 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu__link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  padding: 0 12px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.menu__link_last {
+  border-right: none;
+}
+
+.menu__link:hover {
+  opacity: 0.5;
+}
