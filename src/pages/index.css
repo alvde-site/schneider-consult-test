@@ -6,13 +6,12 @@
 /*header начало */
 
 @import url(../blocks/header/header.css);
-
-/* menu начало */
-
 @import url(../blocks/menu/menu.css);
 
-/* slider начало */
+/* main начало */
 
 @import url(../blocks/slider/slider.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/news/news.css);
 
 /*footer начало */

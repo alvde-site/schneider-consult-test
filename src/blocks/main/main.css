@@ -1,0 +1,10 @@
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 246px;
+}
