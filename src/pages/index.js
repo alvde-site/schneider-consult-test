@@ -1,14 +1,22 @@
-import './index.css';
+import "./index.css";
 
-const promoDate = document.querySelector('.header__promo-date');
+const promoDate = document.querySelector(".header__promo-date");
 
 const date = new Date();
-const DayToNextMonday = date.setDate(date.getDate() + (7 - date.getDate()) % 7);
-const nextMonday = new Date(DayToNextMonday);
-const newDate = `${nextMonday.getDate()}.${nextMonday.getMonth()}.${nextMonday.getFullYear() - 2000}`;
-console.log(newDate)
 
+// Получает дату ближайшего понедельника, и если сегодня понедельник, получает дату текущего понедельника
+const dateToNextMonday = ((8 - date.getDay()) % 7);
 
+// Получает дату ближайшего понедельника, и если сегодня понедельник, получает дату следующего понедельника
+// const dateToNextMonday = ((8 - date.getDay()) % 7) || 7;
 
+function addDays(date, days) {
+  const result = new Date(date);
+  result.setDate(result.getDate() + days);
+  return result;
+}
 
-promoDate.textContent = newDate;
+const result = addDays(date, dateToNextMonday);
+const formattedResult = `${result.getDate()}.${result.getMonth() + 1}.${result.getFullYear() - 2000}`;
+
+promoDate.textContent = formattedResult;
