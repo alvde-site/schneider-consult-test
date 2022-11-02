@@ -6,7 +6,6 @@
 
 .main__content {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
   padding: 48px 0 246px;
 }
