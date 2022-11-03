@@ -10,8 +10,16 @@
     />
     <meta name="keywords" content="Тестовое" />
     <meta name="author" content="Демиденко Александр" />
-    <link rel="shortcut icon" href="<%=require('./images/logo.png')%>" type="image/png"/>
-    <link rel="icon"  href="<%=require('./images/logo.png')%>" type="image/png"/>
+    <link
+      rel="shortcut icon"
+      href="<%=require('./images/logo.png')%>"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="<%=require('./images/logo.png')%>"
+      type="image/png"
+    />
   </head>
 
   <body class="root">
@@ -20,8 +28,20 @@
 
       <header class="header">
         <div class="header__content">
-          <img src="<%=require('./images/svg/logo.svg')%>" alt="Логотип" class="header__logo">
-          <p class="header__promo">Распродажа до <span class="header__promo-date">15.02.16</span>!</p>
+          <div class="header__logo-wrap">
+            <img
+              src="<%=require('./images/logo.png')%>"
+              alt="Логотип"
+              class="header__logo"
+            />
+            <div class="header__logo-text">
+              <h1 class="header__title">Название компании</h1>
+              <p class="header__subtitle">Самая крутая компания!</p>
+            </div>
+          </div>
+          <p class="header__promo">
+            Распродажа до <span class="header__promo-date">15.02.16</span>!
+          </p>
           <ul class="header__contacts">
             <li class="header__contacts-item">
               <a href="tel:+" class="header__tel">+7 (343) 252-52-52</a>
@@ -53,7 +73,10 @@
             class="slider__image"
           />
         </section>
-        <section class="main__content" aria-label="Новости и информация о компании">
+        <section
+          class="main__content"
+          aria-label="Новости и информация о компании"
+        >
           <aside class="news">
             <h3 class="news__main-title">Новости</h3>
             <ul class="news__block">

@@ -11,10 +11,43 @@
   margin: 0 auto;
 }
 
+.header__logo-wrap {
+  display: flex;
+  max-width: 318px;
+  width: 100%;
+}
+
 .header__logo {
-  width: 318px;
+  width: 100px;
   height: 100px;
-  background: url(../../images/svg/logo.svg) center/contain no-repeat;
+  margin: 0 25px 0 0;
+}
+
+.header__logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.2;
+  color: rgb(119,119,119);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgb(119,119,119);
+  margin: 0;
 }
 
 .header__promo {
